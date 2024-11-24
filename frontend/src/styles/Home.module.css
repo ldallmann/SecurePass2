@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&display=swap');
+
+
+/*---------------------------------------------------------- SEÇÃO MAIN -----------------------------------------------------------*/
+/*--------------------------MAIN: */
+
+.main{
+	display: flex;
+	width: 100vw;
+}
+
+.mainContainer{
+	display: flex;
+	justify-Content: center;
+	width: 100%;
+	padding: 50px 50px;
+	background-image: url('../assets/blueBackgroundHome2.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background: rgb(196,215,255);
+	background: linear-gradient(212deg, rgb(147, 167, 211) 0%, rgb(29, 37, 109) 100%);*/
+	height: 100vh;
+}
+
+.mainSectionContainer{
+	max-width: 1100px;
+	width: 100%;
+}
+
+.articleInputs h2{
+	margin-bottom: 30px;
+}
+
+/*-------------------------TABLE: */
+
+.articleTable{
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	padding: 15px 45px;
+	background-color: #fff;
+}
+
+.tableRow{
+	display: flex;
+	justify-Content: space-Between;
+	align-Items: center;
+	height: 50px;
+	padding: 10px 20px;
+	color: #333;
+	/*borderBottom: 1px solid #dedede;*/
+}
+
+.idNameContainer{
+	display: flex;
+	align-Items: center;
+	max-width: 300px;
+	width: 100%;
+}
+
+.idCell{
+	max-width: 100px;
+	width: 100%;
+	color: #000000;
+	font-weight: bold;
+}
+
+.nameCell{
+	max-width: 200px;
+	width: 100%;
+}
+
+.roleCell{
+	max-width: 170px;
+	width: 100%;
+}
+
+.activeCell{
+	max-width: 150px;
+	width:100%;
+}
+
+.cargo{
+	max-width: 170px;
+	width: 100%;
+}
+
+.ativo{
+	max-width: 150px;
+	width:100%;
+}
+
+.firstRow{
+	font-weight: bold;
+}
+
+.cargoSettingsContainer{
+	display: flex;
+	align-Items: center;
+	max-width: 345px;
+	width: 100%;
+}
+
+.cargoSettingsContainer svg{
+	width: 25px;
+	height: 25px;
+	transition: 0.2s;
+	color: #3a1aad;
+}
+
+.cargoSettingsContainer a{
+	height: 25px;
+}
+
+.cargoSettingsContainer a:hover{
+	animation: rotateAnimation 3s infinite linear;
+	transition: 0.2s;
+}
+
+.cargoSettingsContainer button{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.cargoSettingsContainer button svg{
+	width: 30px;
+	height: 30px;
+	color: #3a1aad;
+	border-left: 2px solid #3a1aad;
+}
+
+.line{
+	height: 1px;
+	width: 98%;
+	margin: 3px 0;
+	background-Color: #bdc5d1;
+}
+
+.tableRowHover{
+	transition: 0.3s;
+}
+
+.tableRowHover:hover{
+	background-Color: #eaefff;
+	border-Radius: 10px;
+	transition: 0.3s;
+}
+
+.overflowTable{
+	max-height: 80vh;
+	overflow: auto;
+	border: 1px solid #c9cdd3;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.firsRow {
+    font-weight: bold;
+    color: #3f314d;
+    background-color: #fff;
+    padding: 10px 35px 10px 30px;
+    border-radius: 10px 10px 0 0;
+	margin: 0 0 10px 0;
+	height: 70px
+}
+
+.overflowTable::-webkit-scrollbar {
+	width: 6px;
+}
+
+.overflowTable::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 5px;
+}
+
+.overflowTable::-webkit-scrollbar-thumb {
+	background: #55556d;
+	border-radius: 5px;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

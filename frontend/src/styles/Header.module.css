@@ -1,0 +1,112 @@
+.logoContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 95px;
+	font-weight: bold;
+	margin-left: 60px;
+	position: relative;
+	user-select: none;
+}
+
+.logoContainer span{
+	color: #2c3391;
+}
+
+.logoContainer img{
+	width: 5em;
+}
+
+.logoContainer p{
+	font-size: 1.6em;
+	user-select: none;
+}
+
+.headerContainer{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	max-width: 270px;
+	width: 100%;
+	border-right: 2px solid #bbbbbb;
+}
+
+.headerTitles{
+	display:flex;
+	flex-direction: column;
+	gap: 40px;
+	margin: 20px;
+}
+
+.headerTitles h3{
+	font-size: 1.2em;
+	font-weight: 600;
+	user-select: none;
+
+}
+
+.border{
+	margin: 0 auto 15px auto;
+	height: 2px;
+	width: 85%;
+	background-color: #dedede;
+}
+
+.navbar ul{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	width:100%;
+	gap: 5px;
+	user-select: none;
+}
+
+.navbar ul li{
+	display: flex;
+	justify-content: center;
+}
+
+.navbarLinks{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	max-width: 254px;
+	width: 100%;
+	height: 40px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+}
+
+.navbarLinks img{
+	margin-left: 10px;
+	width: 25px;
+	transition: 0.3s;
+}
+
+.navbarLinks:hover{
+	background-color: #cedbff;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.navbarLinks:hover svg{
+	margin-right: 55px;
+	color: #020092;
+	transition: 0.5s;
+}
+
+.navbarLinks:hover p{
+	color: #020092
+}
+
+.svg{
+	margin-left: 10px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.navbarLinks:hover .svg{
+	margin-right: 55px;
+	transition: 0.5s;
+}
